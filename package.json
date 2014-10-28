@@ -1,0 +1,30 @@
+{
+  "name": "ienoopen",
+  "author": "Adam Baldwin <baldwin@andyet.net> (http://andyet.net/team/baldwin)",
+  "contributors": [
+    "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)"
+  ],
+  "description": "Middleware for IE security. Set X-Download-Options to noopen.",
+  "version": "0.1.0",
+  "keywords": [
+    "helmet",
+    "security",
+    "express",
+    "connect",
+    "noopen",
+    "x-download-options"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helmetjs/ienoopen.git"
+  },
+  "bugs": "https://github.com/helmetjs/ienoopen/issues",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "connect": "^3.3.1",
+    "mocha": "^2.0.1",
+    "supertest": "^0.14.0"
+  }
+}
