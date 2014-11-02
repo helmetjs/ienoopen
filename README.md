@@ -1,5 +1,7 @@
 # IE, restrict untrusted HTML
 
+[![Build Status](https://travis-ci.org/helmetjs/ienoopen.svg?branch=master)](https://travis-ci.org/helmetjs/ienoopen)
+
 This middleware sets the `X-Download-Options` header to `noopen` to prevent IE users from executing downloads in your site's context.
 
 ```javascript
