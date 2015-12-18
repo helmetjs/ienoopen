@@ -6,6 +6,7 @@
   ],
   "description": "Middleware for IE security. Set X-Download-Options to noopen.",
   "version": "0.1.0",
+  "license": "MIT",
   "keywords": [
     "helmet",
     "security",
