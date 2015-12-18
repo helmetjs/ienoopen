@@ -5,7 +5,7 @@
     "Evan Hahn <me@evanhahn.com> (http://evanhahn.com)"
   ],
   "description": "Middleware for IE security. Set X-Download-Options to noopen.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "keywords": [
     "helmet",
