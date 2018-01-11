@@ -14,9 +14,9 @@ describe('ienoopen', function () {
     })
   })
 
-  it('sets header properly', function (done) {
-    request(this.app).get('/')
-      .expect('X-Download-Options', 'noopen', done)
+  it('sets header properly', function () {
+    return request(this.app).get('/')
+      .expect('X-Download-Options', 'noopen')
   })
 
   it('names its function and middleware', function () {
