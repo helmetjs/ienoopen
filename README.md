@@ -8,7 +8,7 @@ Internet Explorer, restrict untrusted HTML
 This middleware sets the `X-Download-Options` header to `noopen` to prevent Internet Explorer users from executing downloads in your site's context.
 
 ```javascript
-var ienoopen = require('ienoopen')
+const ienoopen = require('ienoopen')
 app.use(ienoopen())
 ```
 
