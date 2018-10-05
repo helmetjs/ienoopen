@@ -20,7 +20,7 @@ describe('ienoopen', function () {
   })
 
   it('names its function and middleware', function () {
-    assert.equal(ienoopen.name, 'ienoopen')
-    assert.equal(ienoopen().name, 'ienoopen')
+    assert.strictEqual(ienoopen.name, 'ienoopen')
+    assert.strictEqual(ienoopen().name, 'ienoopen')
   })
 })
