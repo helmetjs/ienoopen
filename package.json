@@ -24,6 +24,9 @@
     "url": "https://github.com/helmetjs/ienoopen/issues",
     "email": "me@evanhahn.com"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "scripts": {
     "pretest": "standard --fix",
     "test": "mocha"
