@@ -1,2 +1,6 @@
-test
-.travis.yml
+/index.ts
+/tsconfig.json
+/tslint.json
+
+/test/
+/.travis.yml
