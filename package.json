@@ -15,6 +15,7 @@
     "noopen",
     "x-download-options"
   ],
+  "homepage": "https://helmetjs.github.io/docs/ienoopen/",
   "repository": {
     "type": "git",
     "url": "git://github.com/helmetjs/ienoopen.git"
