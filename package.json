@@ -31,7 +31,7 @@
   "scripts": {
     "pretest": "npm run lint",
     "prepublishOnly": "npm run build",
-    "lint": "tslint --project . --fix",
+    "lint": "eslint --fix '**/*.ts'",
     "test": "jest --config test/jest-config.json",
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc"
@@ -42,12 +42,13 @@
     "@types/connect": "^3.4.32",
     "@types/jest": "^24.0.9",
     "@types/supertest": "^2.0.7",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
     "connect": "^3.6.6",
+    "eslint": "^5.16.0",
     "jest": "^24.3.1",
     "supertest": "^3.3.0",
     "ts-jest": "^24.0.0",
-    "tslint": "^5.13.1",
-    "tslint-config-standard": "^8.0.1",
     "typescript": "^3.3.3333"
   }
 }
