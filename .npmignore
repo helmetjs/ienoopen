@@ -4,3 +4,5 @@
 
 /test/
 /.travis.yml
+/dist/**/*.js.map
+/dist/test/
