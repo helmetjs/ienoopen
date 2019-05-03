@@ -1,6 +1,6 @@
 /index.ts
 /tsconfig.json
-/eslintrc.json
+/.eslintrc.json
 
 /test/
 /.travis.yml
